@@ -3,7 +3,7 @@
 [![Documentation Status](https://readthedocs.org/projects/uwgda-jupyterbook/badge/?version=latest)](https://uwgda-jupyterbook.readthedocs.io/en/latest/?badge=latest)
 [![GeoSMART Curricula](https://geo-smart.github.io/assets/curricula_badge.svg)](https://geo-smart.github.io/curriculum)
 
-Latest web version of JupyterBook: https://uwgda-jupyterbook.readthedocs.io
+Latest web version of JupyterBook: https://gda-wi25-jupyterbook.rtfd.io
 
 ### Local development (for instructors)
 
