@@ -1,3 +1,3 @@
 # Syllabus
 
-[2024 Syllabus (UW netid required)](https://docs.google.com/document/d/1HsvhSusL-nVxATx9xoWf18ss3H36ufN5_-Z1O8bkZ2w/edit?usp=sharing)
+[2025 Syllabus (UW netid required)](https://docs.google.com/document/d/1cxM6t62Eos2xQtpBGYV4WmGcQbywe1L73s1JedDkQtM/edit?tab=t.0#heading=h.yi56rw26sb7n)
