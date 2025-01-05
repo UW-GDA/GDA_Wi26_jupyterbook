@@ -1,5 +1,4 @@
 # 01: Github and Python
-# Preparation
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
