@@ -40,10 +40,10 @@ parts:
     #   - file: modules/01_Shell_Github/01_Shell_Github_demo
     #   - file: modules/01_Shell_Github/01_Shell_Github_exercises
 
-    - file: modules/01_Python_Github/01_prep
+    - file: modules/01_Github_Python/01_prep
       sections:
-      - file: modules/01_Python_Github/01_demo
-      - file: modules/01_Python_Github/01_lab
+      - file: modules/01_Github_Python/01_demo
+      - file: modules/01_Github_Python/01_lab
 
     - file: modules/02_Python_Jupyter/02_Python_Jupyter_prep
       sections:
