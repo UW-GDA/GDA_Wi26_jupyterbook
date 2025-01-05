@@ -43,7 +43,8 @@ parts:
     - file: modules/01_Github_Python/01_prep
       sections:
       - file: modules/01_Github_Python/01_demo
-      - file: modules/01_Github_Python/01_lab
+      - file: modules/01_Github_Python/geospatial_gallery.ipynb
+      #- file: modules/01_Github_Python/01_lab
 
     - file: modules/02_Python_Jupyter/02_Python_Jupyter_prep
       sections:
