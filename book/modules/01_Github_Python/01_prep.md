@@ -1,4 +1,4 @@
-01: Github and Python
+# 01: Github and Python
 # Preparation
 
 UW Geospatial Data Analysis  
