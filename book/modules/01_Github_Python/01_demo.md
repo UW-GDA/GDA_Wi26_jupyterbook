@@ -1,16 +1,16 @@
 # Demo
+
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-David Shean  
+David Shean, Eric Gagliano, Quinn Brencher
 
 ## Preparation and discussion
 - Make sure all students are on Jupyterhub (add UW netid from Hub Control Panel if necessary)
-- Distribute link to course Jupyterhub, have students start server
-- Basic interface overview - start a shell, start a notebook (next week)
+- Make sure everyone has started their Jupyterhub server
+- Basic interface overview - start a shell, start a notebook
 - Ask about OS? Anybody using Linux? All of you!
 - Discuss virtual machine and cloud computing
    - underlying infrastructure, computer somewhere in Google data center in CA or OR
-   - `uname -a`, `lscpu`, `free`, `top`, `df -h .`
 - Close tab in Jupyterlab - demonstrate persistence
 - Storage will persist throughout quarter, server will shut down after ~1 hour of inactivity
 
@@ -22,10 +22,11 @@ David Shean
 - `ls -l` - modificaiton timestamps
 
 ## Set up git on Jupyterhub
-- https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login
+- https://gda-wi25-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login
 - Set up token
 
 ## Basic git/Github workflow
+1. Create `labs` folder
 1. Distribute Week 01 Github classroom assignment link through Slack channel 
 1. Clone assignment locally:  
    ```
@@ -36,9 +37,6 @@ David Shean
 1. git vs. github, local vs remote 
 1. Discuss repo contents - markdown files, csv
 1. Pick a text editor
-    * Demonstration of Jupyterlab text editor
-    * Discuss text editors, pick one for command line
-    * https://web.stanford.edu/class/cs107/resources/editors
 1. Edit `README.md` and add your name
 1. Commit the change
 ```
@@ -71,14 +69,6 @@ git status
    * For now, modify single file, add and commit
    * Try without `-m` and demonstrate nano (how to get out)
 
-### Create a new text file
-* Discuss extensions (.sh vs. .txt or .py)
-* `vim myawesomescript.py`
-* Add some lines:
-    ```
-    #! /usr/bin/env python
-    print("Pancakes rule!")
-    ```
 
 ### Commit the change
 ```
@@ -88,27 +78,6 @@ git status
 git commit -m "Added myawesomescript.py"
 ```
 
-### Try to execute script, doesn't work
-`./myawesomescript.py`
-
-### Check permissions
-`ls -l ./myawesomescript.py`
-
-### Change permissions
-```
-chmod +x myawesomescript.py
-ls -l myawesomescript.py
-./myawesomescript.py
-```
-
-### Commit permission change
-```
-git status
-git diff myawesomescript.py
-git add myawesomescript.py
-git status
-git commit -m "Change permissions on myawesomescript.py"
-```
 
 ### Review log, main is ahead of origin
 ```
@@ -129,33 +98,13 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 
 # Other topics to discuss
 * You will make mistakes, it's OK, can always start over with git
-* Post to #01_shell_github channel for help
+* Post to #01_github_python channel for help
 * Best practices with git
     * https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
     * https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#why-are-a-bunch-of-random-files-added-to-my-repo
 * Tab completion
 * Command `history` (use up arrow)
 * du and df
-* top and ps
-* ssh and scp
-* tmux and screen
-* Discuss filesystem
-    * Output from `which ls`
-    * Go to /
-    * Explore /bin
-* Discuss executables
-* `$PATH`
-* bits, bytes
-* for loop
-    ```
-    for i in solutions.txt words README.md
-    do
-        ls $i
-    done
-    #One line:
-    for i in solutions.txt words README.md; do ls $i; done
-    ```
 
 # Introduce assignment
-* create `labs` folder!
 * Walk through first few questions of assignment together
