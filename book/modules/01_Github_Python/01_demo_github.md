@@ -45,7 +45,7 @@ David Shean, Eric Gagliano, Quinn Brencher
 ## Lab 01 assignment (due NEXT Friday)
 1. Create `labs` folder
 1. Distribute week 01 lab assignment link through slack channel 
-1. Clone assignment locally
+1. Clone assignment locally into the labs folder - be careful of where you clone!!
 1. Add a folder `ramblings`
 1. Add a file in that folder called `my_thoughts_on_git.txt` 
 1. Add some of your thoughts
