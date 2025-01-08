@@ -35,14 +35,10 @@ parts:
   - caption: Modules
     chapters:
 
-    # - file: modules/01_Shell_Github/01_Shell_Github_prep
-    #   sections:
-    #   - file: modules/01_Shell_Github/01_Shell_Github_demo
-    #   - file: modules/01_Shell_Github/01_Shell_Github_exercises
-
     - file: modules/01_Github_Python/01_prep
       sections:
-      - file: modules/01_Github_Python/01_demo
+      - file: modules/01_Github_Python/01_demo_github
+      - file: modules/01_Github_Python/01_demo_python
       - file: modules/01_Github_Python/geospatial_gallery.ipynb
       - file: modules/01_Github_Python/01_lab_PREVIEW
 
