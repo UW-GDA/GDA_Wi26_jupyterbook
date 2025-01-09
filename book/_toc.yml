@@ -42,11 +42,11 @@ parts:
       - file: modules/01_Github_Python/geospatial_gallery.ipynb
       - file: modules/01_Github_Python/01_lab_PREVIEW
 
-    - file: modules/02_Numpy_Pandas_Matplotlib/02_prep
+    - file: modules/02_NumPy_Pandas_Matplotlib/02_prep
       sections:
-      - file: modules/02_Numpy_Pandas_Matplotlib/02_demo_numpy_pandas
-      - file: modules/02_Numpy_Pandas_Matplotlib/02_demo_matplotlib
-      - file: modules/02_Numpy_Pandas_Matplotlib/02_lab_PREVIEW
+      - file: modules/02_NumPy_Pandas_Matplotlib/02_demo_numpy_pandas
+      - file: modules/02_NumPy_Pandas_Matplotlib/02_demo_matplotlib
+      - file: modules/02_NumPy_Pandas_Matplotlib/02_lab_PREVIEW
 
     - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
       sections:
