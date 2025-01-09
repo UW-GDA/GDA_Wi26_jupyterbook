@@ -8,6 +8,8 @@ David Shean, Eric Gagliano, Quinn Brencher
 - Make sure you know where to find everything so you can stay on top of your assignments! 
 - Log into the class Jupyterhub and start your server (link pinned to the `#general` channel on slack!)
     - If you're not able to log on, please let us know ASAP
+- Make sure to accept the Github classroom starter assignment (link pinned to `#general` on slack)
+
 
 ## Jupyterhub overview
 - Basic interface overview 
@@ -25,22 +27,24 @@ David Shean, Eric Gagliano, Quinn Brencher
 - `ls -l` - modificaiton timestamps
 
 ## Set up git on Jupyterhub
-- https://gda-wi25-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login
-- Set up token
+- Get a [personal access token](https://gda-wi25-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login) from Github
+- Run the following commands, replacing with your own info
+  - `git config --global user.name "Eric Gagliano"`, 
+  - `git config --global user.email "egagli@uw.edu"`
+- Run the following command. Next time you enter your credentials (use the Github token as your password!), they will be saved.
+  - `git config --global credential.helper store`
 
 ## Basic git / Github workflow
-1. Make sure to accept the Github classroom starter assignment (link pinned to `#general` on slack)
-2. git vs. github, local vs remote 
-3. Use `git clone` to download it to the Jupyterhub
-4. Try a `git status`
-5. Put your name on the assignment on the remote repository
-6. Try a `git status`
-7. Try `git pull`
-8. Now add the date to the assignment on the local repository
-9. `git status`
-10. Use `git add`, `git commit -m "your commit message here"`, and `git push` to push your work up! 
-11. Store credentials so you don't have to enter the token every time!
-12. Try `git log`
+1. Discussion: git vs. github, local vs remote 
+2. Use `git clone` to download Github starter assignment to the Jupyterhub
+3. Try a `git status`
+4. Put your name on the assignment on the remote repository
+5. Try a `git status`
+6. Try `git pull`
+7. Now add the date to the assignment on the local repository
+8. `git status`
+9. Use `git add filename`, `git commit -m "your commit message here"`, and `git push` to push your work up! 
+10. Try `git log`
 
 ## Lab 01 assignment (due NEXT Friday)
 1. Create `labs` folder
@@ -55,11 +59,9 @@ We will go over and work on the lab together this Friday. Please come prepared b
 
 ## Other topics to discuss
 * You will make mistakes, it's OK, can always start over with git
-* Post to #01_github_python channel for help
+* origin, branches, forks, more git log functionality
+* du and df
 * Best practices with git
     * https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
     * https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#why-are-a-bunch-of-random-files-added-to-my-repo
-* Command `history` (use up arrow)
-* du and df
-* origin, branches, forks, more git log functionality
 
