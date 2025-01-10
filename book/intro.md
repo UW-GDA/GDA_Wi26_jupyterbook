@@ -1,10 +1,9 @@
 # Geospatial Data Analysis with Python
 
-Course material from the Winter 2024 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
+Course material from the Winter 2025 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
 
-2024 Instructor: Eric Gagliano 
 
-Material created by [David Shean](https://www.ce.washington.edu/facultyfinder/david-shean)  
+[David Shean](https://www.ce.washington.edu/facultyfinder/david-shean), Eric Gagliano, Quinn Brencher  
 Civil and Environmental Engineering  
 University of Washington  
 
