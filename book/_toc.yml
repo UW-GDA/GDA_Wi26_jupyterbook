@@ -29,6 +29,8 @@ parts:
       - file: resources/jupyterhub_migration.md
     - file: resources/project/README
       sections:
+      - file: resources/project/collab_best_practices.md
+      - file: resources/project/rubric.md
       - file: resources/project/project_data_sources.md
     - file: resources/code_of_conduct.md
 

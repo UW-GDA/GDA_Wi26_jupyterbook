@@ -2,7 +2,7 @@
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-David Shean  
+David Shean, Eric Gagliano, Quinn Brencher  
 
 ## Overview
 The final project is an essential component of this course. It provides an opportunity for you to independently scope and explore a topic of interest, and hopefully apply some of the concepts and approaches that we've covered during the course, solidifying your understanding of the material. The hope is that you can share what you learned with your classmates, and then proudly post your final project repository on your Github page to share with the world (and future employers).
@@ -46,27 +46,14 @@ You have multiple options:
 #### Create a Github repository
 Create a new private repo for your project *within the GDA organization* (can transfer to personal accounts later if desired). Go to https://github.com/UW-GDA and click the big green "New" button.
 
-Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects.
+Try to think of a descriptive repo name, bonus points if it is clever - try to avoid repo names like “finalproject”, which doesn’t help your classmates distinguish between projects. 
 
 When you initialize, select to include a README.md and include a .gitignore file for Python.
 
+If you are doing a group project, please check out the group project best practices tab.
+
 Don’t stress too much about the specifics of the repo - these are not permanent, and you can always change repo names, or start over entirely (just copy and add existing files as a first commit). One of the goals here is to gain more experience using git (potentially for collaborative work), and you’re inevitably going to make some mistakes along the way. Best to do it here, where stakes are pretty low.
 
-#### Group project initialization
-If you’ve decided to do a group project, pick a project lead to initiate and manage the repo, add others as collaborators (individuals or using a new Github Team within the UW-GDA organization), and make sure all can access and commit to the repo. 
-
-Some of the resources from our recent ICESat-2 Hackweek event may be useful here (swapping `UW-GDA` for `ICESAT-2HackWeek` in the urls): https://icesat-2hackweek.github.io/learning-resources/projects/project_initialization/.  If you encounter issues, send me a direct message on Slack (including everyone on the group project), so I can help you navigate. 
-
-I would like to see **at least one commit from each group member** at this phase of the project, even if it is as simple as everyone using the Github interface to edit the README.md file and add their name. There are many approaches to collaborative group/team development using git/Github and no "right" way. 
-
-#### Group project collaboration
-Collaboration can be a bit more complicated with Jupyter notebooks (vs. standalone Python scripts/libraries), since running cells in the notebook will change execution count and output, even if the code and content appear identical. Best practice is to avoid situations where two people are independently working on the same notebook. When trying to push/pull changes to/from same origin branch, there will inevitably be merge conflicts that can be messy to untangle (though ReviewNB is useful for reviewing notebook diff).
-
-General recommendation - split up the project into multiple smaller notebooks, and have each person work on different components. Avoid the long mega-notebook (like most of our labs), and instead structure your repo with a series of notebooks. For example, you could have one notebook that ingests files, reduces/manipulates the data (e.g., reprojection), then writes new files out to disk in "analysis-ready" format. Then a second notebook reads in those data and does some analysis, creates some plots, etc. If you can pass things back and forth between group members like this, you'll avoid conflicts.
-
-Alternatively, each team member can create separate notebooks with different filenames that both live in the shared repo. When another team member does some work and commits their notebook to the shared repo, you can can pull changes, open their notebook, select relevant cells, copy and paste into your notebook. One simple option with this model is for each group member to create and maintain a subdirectory within the repo where they will stage and modify their own notebooks for their component of the project. 
-
-If you feel comfortable with git/github, you can also use a more standard git branching workflow: https://icesat-2hackweek.github.io/learning-resources/projects/example_workflow/. Reach out to the instructor and TA for additional recommendations.
 
 #### Prepare your README
 The README.md file in your new repo will serve as the landing page for your project. You can continue to update as your project evolves, but for now, please prepare a basic project outline. I recommend that you review the markdown cheat sheet and use some basic headings, bulleted/numbered lists, and other formatting to organize your outline.
@@ -117,24 +104,7 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 * There will be short Q&A/discussion after each presentation
     * Let's try to type all questions/comments in the #project Slack channel, so presenters can follow up later
     * Hoping we can do one short question/response live during the transition to the next speaker
-    * I expect active engagement from the entire class. Part of your final project grade is based on participation during the group session
-* Before our project presentation session, please enable read access on your repo, so others in the class can see your great work, and learn from what you've done!
-   * Open the "Settings" tab near the top of your repo
-   * Select "Manage Access" on left side
-   * Click the green "Invite teams or people"
-   * Type `gda_w2021_students` in the search bar and select
-   * Use the default Read access and click the green button to proceed
-   * Check the UW-GDA organization to see other project repos!
-   * I recognize that this may feel a little uncomfortable, especially if you didn’t have as much time as expected or don’t feel your repo is “finished.” It’s OK! We’re all in the same boat and projects like this are never truly finished. See below for some additional thoughts, and please reach out if you would like to discuss.
-
-#### Some Perspective
-Please remember that nobody is asking for or expecting perfection on your final projects. The reality is that you probably only had time to attempt 10-30% of the things you outlined during Week 6. And that’s OK. If some things worked out, fantastic! Tell us a little about them so we can share your success and learn from what you’ve done. If nothing worked out, that’s also OK! Share a bit of why you chose this project, what you attempted, some of the challenges you encountered, and plans/recommendations for future work.
-
-This was meant to be an exercise to get you independently scoping your own projects and starting to explore new data/techniques, while also solidifying and building on some of the material we covered this quarter. Nobody is expecting a research project that is ready for publication or a presentation ready for a major international conference.
-
-If after this week, you never revisit this work, I hope that it was a useful learning experience. However, I think several of you will continue to pursue some of the things you started, maybe for your MS/PhD research, which is always really rewarding for me to see. I'm happy to continue offering input as you continue.
-
-You all know each other by now, and you know that this is a friendly, open, supportive group. Nobody is judging you or your presentation/repo. We all have a lot going on right now. Let’s support each other, offer constructive feedback, and celebrate our collective accomplishments.
+    * Meaningful engagement will reflect positively in your participation grade :)
 
 ### Final Exam Week: Repo Submission
 * Finalize your repository with notebooks, scripts and documentation
@@ -144,6 +114,11 @@ You all know each other by now, and you know that this is a friendly, open, supp
       * Help someone who is unfamiliar with your project quickly find the good stuff! 
 * Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
 * Celebrate!
+
+
+#### Some Perspective
+Please remember that nobody is asking for or expecting perfection on your final projects. The reality is that you probably only had time to attempt 10-30% of the things you outlined during Week 6. And that’s OK. If some things worked out, fantastic! Tell us a little about them so we can share your success and learn from what you’ve done. If nothing worked out, that’s also OK! Share a bit of why you chose this project, what you attempted, some of the challenges you encountered, and plans/recommendations for future work. We've worked hard this quarter to foster a friendly and supportive community. Let’s support each other and celebrate our collective accomplishments!
+
 
 ### Optional: Share your amazing work!
 You have two options - share with the world or only share with other students in the class. It's up to you, but if you are comfortable sharing and there are no issues involving proprietary data, I suggest sharing with the world (colleagues, advisors, friends, family, future employers!):
@@ -160,6 +135,20 @@ You have two options - share with the world or only share with other students in
 
 ## Sample project ideas
 Several groups and individuals from previous years made their GDA projects public within the GDA Organization (you should too!). You are encouraged to review these samples for inspiration and some guidance.
+
+Here are a small sample of the public projects:
+
+[Land Use, Transit Flows, and Demographics in King County](https://github.com/UW-GDA/land-use-travel-patterns)
+
+[Assessing Sea Ice Thickness Changes around Kivalina, AK Using ICESat-2 ATL10 Gridded Monthly Data](https://github.com/UW-GDA/kvlclimate)
+
+[Tracking water quality over time in the Lower Mekong](https://github.com/UW-GDA/mekong-water-quality)
+
+[Oakland-Gentrification-Ed-Analysis](https://github.com/UW-GDA/Oakland-Gentrification-Ed-Analysis/tree/main)
+
+[Assessing temporal variability in glacial turbidity through Sentinel-2 rasterized data for Lake Chelan, WA](https://github.com/UW-GDA/Project_Chelanigans)
+
+
 
 ## Sample data
 [Open Data for Projects](./project_data_sources.md)
