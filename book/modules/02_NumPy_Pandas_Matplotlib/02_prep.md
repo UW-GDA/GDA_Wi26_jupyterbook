@@ -2,9 +2,7 @@
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-David Shean
-
-Modified by Quinn Brencher
+David Shean, Eric Gagliano, Quinn Brencher
 
 Please quickly read through this entire document once, then go back and start tackling the various tasks.
 

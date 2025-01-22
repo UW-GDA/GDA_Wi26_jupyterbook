@@ -2,7 +2,7 @@
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-David Shean  
+David Shean, Eric Gagliano, Quinn Brencher
 
 This week, please finish the Lab02 exercises, then follow the [student weekly workflow](../../resources/students/student_weekly_workflow.md) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.
 
