@@ -8,10 +8,10 @@ This week, please finish the Lab02 exercises, then follow the [student weekly wo
 
 Also, please review information about the course [Final Project](../../resources/project/README.md):  
 * Start thinking about potential project ideas you might want to explore
-* Come prepared on Friday to share an idea or two during breakouts with other students (no commitment expected, just brainstorm)
+* Come prepared on Friday to share your "project pitch", totally fine if it's not polished. We'll go around the room, and then have some time to gather in smaller breakout groups 
 
 ## Overview
-This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, and basic vector geometry definitions (points, lines, polygons). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
+This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, and basic vector geometry definitions (points, lines, polygons). We will also begin using the [GeoPandas](https://geopandas.readthedocs.io/en/latest/) package for further analysis of the ICESat point dataset.
 
 >“GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.”
 
@@ -28,7 +28,7 @@ Please take some time before lab on Friday to review some of the following mater
     * Geospatial Concepts
     * Encodings, Formats and Libraries
     * GeoPandas Introduction
-    * *Note: If you prefer an instructor explaining, here is a recording of this tutorial by Emilio Mayorga:* https://www.youtube.com/watch?v=t3PMTnhl1eY&feature=youtu.be
+    * *Note: If you prefer an instructor explaining, [here](https://www.youtube.com/watch?v=t3PMTnhl1eY&feature=youtu.be) is a recording of this tutorial by Emilio Mayorga:* 
 * [Earth Lab Intermediate Earth Data Science Textbook](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-vector-data-python/spatial-data-vector-shapefiles/intro-to-coordinate-reference-systems-python/)
     * Section 2, Chapter 2: all sections (~30-60 min)
         * Can review on website or download data for interactive exploration
@@ -37,17 +37,9 @@ Please take some time before lab on Friday to review some of the following mater
         * Lesson 3. Geographic vs projected coordinate reference systems - GIS in Python
         * Lesson 4. Understand EPSG, WKT and Other CRS Definition Styles
 
-## Other Resources
-
-### Official documentation:
-* GeoPandas: http://geopandas.org/index.html
-* Shapely: https://shapely.readthedocs.io/en/stable/manual.html
-
-### Other good resources:
-* https://automating-gis-processes.github.io/site/lessons/L1/Intro-Python-GIS.html
-* https://automating-gis-processes.github.io/site/lessons/L2/overview.html
-* https://github.com/Automating-GIS-processes/CSC/blob/master/source/notebooks/L1/geometric-objects.ipynb
-* http://darribas.org/gds15/content/labs/lab_03.html
-* https://geohackweek.github.io/visualization/03-cartopy/
-* https://www.w3.org/2015/spatial/wiki/Coordinate_Reference_Systems
-* https://github.com/geopandas/geopandas/tree/master/examples
+## Additional resources
+* [GeoPandas documentation]( http://geopandas.org/index.html)
+* [GeoPandas examples gallery](https://geopandas.org/en/latest/gallery/index.html)
+* [Shapely documentation](https://shapely.readthedocs.io/en/stable/manual.html)
+* [Shapely objects](https://github.com/Automating-GIS-processes/CSC/blob/master/source/notebooks/L1/geometric-objects.ipynb)
+* [Cartopy](https://geohackweek.github.io/visualization/03-cartopy/)
