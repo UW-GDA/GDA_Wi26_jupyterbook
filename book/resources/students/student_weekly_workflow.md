@@ -87,14 +87,14 @@ Note: I really appreciate it when people follow up because they genuinely want t
    * I update, correct and improve the instructions every year based on student questions and common sticking points.
    * I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
 
-### Sanity checks
-   * As you work, remember to include periodic sanity checks.
+### Confidence checks
+   * As you work, remember to include periodic confidence checks.
    * It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
    * For example, several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
 
 ### Sample code and output
    * When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.
-   * These are intended to serve as a guide, help you check your own output, and keep you on the right track - not a substitute for doing your own sanity checks.
+   * These are intended to serve as a guide, help you check your own output, and keep you on the right track - not a substitute for doing your own confidence checks.
    * These are not the “correct” answer or a plot that you must reproduce! Many are quick plots that I generated using personal preferences/habits, and they can contain mistakes or other issues that should be fixed.  
    * Rather than reproduce sample output, try to create plots/output that you think offers the best answer or visualization for the task/question. Better yet, make a plot that improves upon what I included! 
    * And if your answer differs from mine, but you are confident, back it up with some justification. You’re probably right! You’re all smart and collectively will notice things that I missed, and I will gladly update the solutions notebook to avoid confusion in future years. Thanks!
