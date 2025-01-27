@@ -56,6 +56,21 @@ parts:
       - file: modules/03_Vector1_Geopandas_CRS_Proj/03_demo_projection_tradeoffs.ipynb
       - file: modules/03_Vector1_Geopandas_CRS_Proj/03_lab_PREVIEW
 
+    
+    - file: modules/04_Raster1_GDAL_rasterio_LS8/04_prep
+      sections:
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_demo_download.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_demo_array_masking.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_demo_raster_packages_gdal.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_demo_raster_packages_rasterio.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_demo_raster_packages_rioxarray.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_lab_nb1_PREVIEW.ipynb
+      - file: modules/04_Raster1_GDAL_rasterio_LS8/04_lab_nb2_PREVIEW.ipynb
+
+    
+    
+    
+    
     - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_prep
       sections:
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_demo
