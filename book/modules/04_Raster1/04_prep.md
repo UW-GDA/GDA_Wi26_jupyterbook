@@ -73,7 +73,7 @@ Please review the following material, especially if you have limited GIS or remo
 
 
 ### 3. GDAL, rasterio, and rioxarray
-Working with raster data is a essential part of geospatial analysis. There are several python packages available for raster processing, and we'll introduce three key tools that build on top of each other...
+Working with raster data is an essential part of geospatial analysis. There are several python packages available for raster processing, and we'll introduce three key tools that build on top of each other...
 
 * GDAL (Geospatial Data Abstraction Library): The low-level foundation that powers most geospatial software. While powerful, it can be complex to use directly.
 * rasterio: A more Pythonic interface to GDAL that provides efficient access to raster data using NumPy arrays.
