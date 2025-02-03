@@ -1,8 +1,8 @@
-# 06: Vector 2 - Geometries, Spatial Operations, Visualization
+# 05: Vector 2 - Geometries, Spatial Operations, Visualization
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-David Shean  
+David Shean, Eric Gagliano, Quinn Brencher
 
 ## Overview
 This week, we are going to revisit vectors, geometry operations, spatial/attribute joins, and more sophisticated visualization.  We will illustrate some of these concepts with a power plants point dataset and the U.S. State outlines.
