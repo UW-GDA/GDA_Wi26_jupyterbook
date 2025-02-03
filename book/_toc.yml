@@ -68,8 +68,10 @@ parts:
       - file: modules/04_Raster1/04_lab_nb2_PREVIEW.ipynb
 
     
-    
-    
+    - file: modules/05_Vector2/05_prep
+      sections:
+      - file: modules/05_Vector2/05_demo.ipynb
+      - file: modules/05_Vector2/05_lab_PREVIEW.ipynb    
   
     - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_prep
       sections:
