@@ -30,6 +30,7 @@ Please take some time to review the following material (especially if you have l
   * [rasterstats](https://pythonhosted.org/rasterstats/)
 
 * Rasterization
+  * [rasterization](https://pygis.io/docs/e_raster_rasterize.html)
   * [lidar points to pixels](https://www.earthdatascience.org/courses/use-data-open-source-python/data-stories/what-is-lidar-data/lidar-points-to-pixels-raster/)
 
 
