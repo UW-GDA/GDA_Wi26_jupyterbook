@@ -26,8 +26,7 @@ Please take some time to review the following material (especially if you have l
   * [Resampling](https://gisgeography.com/raster-resampling/)
 
 * Sampling a raster over polygon area: zonal stats
-  * [zonal stats](https://pythonhosted.org/rasterstats/)
-  * [rasterstats](https://pythonhosted.org/rasterstats/)
+  * [rasterstats / zonal stats](https://pythonhosted.org/rasterstats/)
 
 * Rasterization
   * [rasterization](https://pygis.io/docs/e_raster_rasterize.html)
