@@ -79,7 +79,7 @@ parts:
       - file: modules/06_Raster2/06_demo_download.ipynb
       - file: modules/06_Raster2/06_lab_PREVIEW.ipynb
 
-    - file: modules/07_Vector3/07_prep
+    - file: modules/07_NDarray/07_prep
       sections:
-      - file: modules/07_Vector3/07_demo.ipynb
-      - file: modules/07_Vector3/07_lab_PREVIEW.ipynb
+      - file: modules/07_NDarray/07_demo.ipynb
+      - file: modules/07_NDarray/07_lab_PREVIEW.ipynb
