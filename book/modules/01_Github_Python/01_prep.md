@@ -1,4 +1,4 @@
-# 01: Github and Python
+# 01: Introduction - Github and Python
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

@@ -1,4 +1,4 @@
-# 05: Vector 2 - Geometries, Spatial Operations, Visualization
+# 05: Vector 2 - Geometric operations, spatial joins, aggregations, visualization
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

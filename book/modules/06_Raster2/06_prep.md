@@ -1,4 +1,4 @@
-# 06: Raster 2 - Reprojection, Clipping, Sampling, Zonal Stats 
+# 06: Raster 2 - Reprojection, clipping, aggregation, zonal stats 
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

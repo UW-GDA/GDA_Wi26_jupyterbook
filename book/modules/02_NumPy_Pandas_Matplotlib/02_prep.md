@@ -1,4 +1,4 @@
-# 02: Core Python Modules - Numpy, Pandas and Matplotlib
+# 02: Core python modules - Numpy, Pandas, and Matplotlib
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

@@ -1,4 +1,4 @@
-# 04: Raster 1
+# 04: Raster 1 - Raster IO, basic properties, visualization, sampling, band math
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

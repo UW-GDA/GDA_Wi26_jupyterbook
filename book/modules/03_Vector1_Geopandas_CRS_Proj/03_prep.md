@@ -1,4 +1,4 @@
-# 03: Vector 1 - Geopandas, CRS, Projections
+# 03: Vector 1 - Vector IO, CRS, projections & distortion
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
