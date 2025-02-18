@@ -5,8 +5,7 @@ CEE467/CEWA567
 David Shean, Eric Gagliano, Quinn Brencher
 
 ## Overview
-This week, we are going to cover xarray and nDarray analysis, which could be considered "raster time series" analysis. We will analyze samples of ERA5 climate reanalysis data to explore global climatology and hourly meteorological data for WA state.
-
+In modules 4 and 6 we used rioxarray to read and analyze rasters which were represented as xarray DataArray objects. Module 7 introduces advanced capabilities of Xarray for handling multidimensional geospatial data. In particular, we will work with N-dimensional arrays (NDarrays) that incorporate a time dimension alongside spatial coordinates, enabling time series analysis of raster data.
 
 ## Reading and Tutorials
 Please take some time to review the following material, and come with questions on topics that are unclear, so we can discuss together. 
