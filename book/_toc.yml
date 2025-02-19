@@ -82,4 +82,5 @@ parts:
     - file: modules/07_NDarray/07_prep
       sections:
       - file: modules/07_NDarray/07_demo.ipynb
+      - file: modules/07_NDarray/07_demo_download.ipynb
       - file: modules/07_NDarray/07_lab_PREVIEW.ipynb
