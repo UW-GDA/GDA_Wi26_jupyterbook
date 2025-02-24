@@ -18,3 +18,7 @@ Please take some time to review the following material, and come with questions 
 ### ERA5 climate reanalysis data
 * [What is climate reanalysis?](https://climate.copernicus.eu/climate-reanalysis)
 * [ERA5 reanalysis](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5)
+
+### Cartopy
+* [Xarray maps with Cartopy](https://docs.xarray.dev/en/stable/user-guide/plotting.html#maps)
+* [Maps with Catopy](https://rabernat.github.io/research_computing_2018/maps-with-cartopy.html)
