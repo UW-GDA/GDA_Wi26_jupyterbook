@@ -84,3 +84,10 @@ parts:
       - file: modules/07_NDarray/07_demo.ipynb
       - file: modules/07_NDarray/07_demo_download.ipynb
       - file: modules/07_NDarray/07_lab_PREVIEW.ipynb
+
+    - file: modules/08_Vector3/08_prep
+      sections:
+      - file: modules/08_Vector3/08_demo.ipynb
+      - file: modules/08_Vector3/08_demo_download.ipynb
+      - file: modules/08_Vector3/08_demo_timestamps.ipynb
+      - file: modules/08_Vector3/08_lab_PREVIEW.ipynb
