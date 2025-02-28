@@ -63,6 +63,8 @@ The semi-varigoram is an important tool in geostatistics that quantifies the spa
 Source: http://dx.doi.org/10.15446/esrj.v18n2.41173 
 
 
+Check out the fantastic [GeostatsPy demo notebook on variograms](https://geostatsguy.github.io/GeostatsPyDemos_Book/GeostatsPy_variogram_calculation.html). We won't be using the package used in this notebook, but the introductory material is great for understanding variograms--why we use them, how we use them, and the underlying assumptions of variography.
+
 
 ## Spatial interpolation methods
 
