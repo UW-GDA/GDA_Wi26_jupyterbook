@@ -91,3 +91,9 @@ parts:
       - file: modules/08_Geostatistics/08_demo_download.ipynb
       - file: modules/08_Geostatistics/08_demo_timestamps.ipynb
       - file: modules/08_Geostatistics/08_lab_PREVIEW.ipynb
+
+    - file: modules/09_Advanced_workflows/09_prep
+      sections:
+      - file: modules/09_Advanced_workflows/09_demo.ipynb
+      - file: modules/09_Advanced_workflows/09_demo_stac.ipynb
+      - file: modules/09_Advanced_workflows/09_lab_PREVIEW.ipynb
