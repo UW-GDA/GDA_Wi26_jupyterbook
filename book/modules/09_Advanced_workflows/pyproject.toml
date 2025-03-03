@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pets"
+version = "0.1.0"
+description = "A simple Python package"
+authors = [{ name = "Quinn Brencher", email = "gbrench@uw.edu" }]
+dependencies = []  # Add required packages here
