@@ -5,11 +5,15 @@ CEE467/CEWA567
 David Shean, Eric Gagliano, Quinn Brencher
 
 ## Overview
+This week, we're going to put it all together. We'll cover the basics of developing Python packages that enable more advanced geospatial data analysis workflows. We'll also discuss how these workflows can dynamically pull in geospatial data using APIs and STAC.  We'll briefly touch on Dask, a parallel computing library that can help us process large datasets. 
 
+Please take some time to review the following material, and come with questions on topics that are unclear, so we can discuss together.
 
 ## Geospatial software design
 
-
+- [pandas docstring guide](https://pandas.pydata.org/docs/development/contributing_docstring.html)
+- [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [Python packages for data people, Parts 1-3](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ## Introduction to APIs
 
