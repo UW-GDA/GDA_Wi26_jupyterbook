@@ -134,6 +134,8 @@ In order to take advantage of the [vast amount of STAC static catalogs and STAC 
 Microsoft's Planetary Computer is one of many platforms that host a variety of Earth observation datasets accompanied by a STAC catalog to access them. Check out [Reading Data from the STAC API
 ](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/) for more info. We'll be querying their [Sentinel-2 dataset](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#overview) in the API and STAC demo.
 
+Check out some other STAC catalogs, such as [Element84's Earth Search](https://github.com/Element84/earth-search) and [NASA's cmr-stac](https://github.com/nasa/cmr-stac) ([Data Discovery notebook with CMR-STAC API](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html)).
+
 ## Advanced shell & shell scripting
 
 We already got the chance to use the shell in this class, but we've only scratched the surface! The shell can be powerful for some geospatial data analysis tasks...
