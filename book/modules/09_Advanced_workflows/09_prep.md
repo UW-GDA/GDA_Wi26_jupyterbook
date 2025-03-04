@@ -140,6 +140,16 @@ Microsoft's Planetary Computer is one of many platforms that host a variety of E
 
 Check out some other STAC catalogs, such as [Element84's Earth Search](https://github.com/Element84/earth-search) and [NASA's cmr-stac](https://github.com/nasa/cmr-stac) ([Data Discovery notebook with CMR-STAC API](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html)).
 
+## Dask
+
+Dask is a parallel computing library that helps us handle larger-than-memory computations. You may not realize it, but you've probably used dask if you're using xarray!
+
+- [Dask demo](https://docs.dask.org/en/latest/10-minutes-to-dask.html)
+- [Dask integration with xarray](https://examples.dask.org/xarray.html)
+- [Dask best practices and chunks](https://docs.dask.org/en/latest/array-best-practices.html)
+- [Dask examples](https://examples.dask.org/)
+
+
 ## Advanced shell & shell scripting
 
 We already got the chance to use the shell in this class, but we've only scratched the surface! The shell can be powerful for some geospatial data analysis tasks...
