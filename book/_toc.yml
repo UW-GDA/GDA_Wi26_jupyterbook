@@ -96,4 +96,5 @@ parts:
       sections:
       - file: modules/09_Advanced_workflows/09_demo_package_development.ipynb
       - file: modules/09_Advanced_workflows/09_demo_stac.ipynb
-      - file: modules/09_Advanced_workflows/09_lab_PREVIEW.ipynb
+      - file: modules/09_Advanced_workflows/09_lab_nb1_PREVIEW.ipynb
+      - file: modules/09_Advanced_workflows/09_lab_nb2_PREVIEW.ipynb
