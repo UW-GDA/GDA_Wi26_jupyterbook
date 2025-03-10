@@ -1,4 +1,4 @@
-# 07: NDarrays - Raster time series analysis, EOF analysis
+# 07: NDarrays - Raster time series analysis, temporal aggregation, regression in time, PCA/EOF analysis
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
