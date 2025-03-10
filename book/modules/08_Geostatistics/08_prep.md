@@ -95,7 +95,6 @@ Source: https://www.youtube.com/watch?v=aSr9KzrgsGY
 * [Pandas time-series](https://pandas.pydata.org/docs/user_guide/timeseries.html)
 * [Xarray time-series](https://xarray.pydata.org/en/stable/user-guide/time-series.html)
 
-
 ### Spatial interpolation
 * 1D vs. 2D interpolation
 * https://docs.scipy.org/doc/scipy/tutorial/interpolate.html  
@@ -108,3 +107,6 @@ Source: https://www.youtube.com/watch?v=aSr9KzrgsGY
 * https://geostat-framework.readthedocs.io/projects/gstools/en/stable/
 * http://darribas.org/gds15/content/labs/lab_06.html 
 * http://darribas.org/gds_scipy16/ipynb_md/04_esda.html
+
+### Temporal autocorrelation and seasonality
+* https://knowledge.dea.ga.gov.au/notebooks/How_to_guides/Detecting_seasonality/
