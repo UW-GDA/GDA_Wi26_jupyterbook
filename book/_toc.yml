@@ -102,4 +102,3 @@ parts:
       - file: modules/09_Advanced_workflows/09_lab_nb2_PREVIEW.ipynb
 
     - file: modules/10_Managing_environments/10_prep
-      sections:
