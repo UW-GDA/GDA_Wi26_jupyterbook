@@ -1,4 +1,4 @@
-# 07: NDarrays - Raster time series analysis
+# 07: NDarrays - Raster time series analysis, EOF analysis
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
