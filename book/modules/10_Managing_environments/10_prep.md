@@ -43,7 +43,6 @@ The easiest (smartest?) approach may be to compress and archive _everything_ in 
 1. On the hub, open a terminal and run the following command to check your total disk usage:  
 `cd ~ ; du -sh * ; du -sh .`
 1. If the final line of the output from the above command is >20 GB, I recommend you delete some large files that are no longer needed, especially zip, tif, grib or nc files that can be fetched from the original source the next time you run the notebook.
-   * Note that each user has 40 GB of storage space in our 2021 hub configuration.  
 1. Run the following command to create a [`tar.gz` archive](https://en.wikipedia.org/wiki/Tar_(computing)) of your home directory:  
 `cd ~ ; tar --exclude='.cache' -czvf gda_w2021_backup.tar.gz .` 
    * This may take a while depending on volume and number of files
