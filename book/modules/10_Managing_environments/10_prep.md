@@ -4,14 +4,8 @@ UW Geospatial Data Analysis
 CEE467/CEWA567  
 David Shean, Eric Gagliano, Quinn Brencher
 
-We made it to Week 10! No formal assignment this week, so please use the time to work on your final projects. 
-
 ## Overview
-During class, we will discuss conda/mamba and the simple steps needed to migrate from the course Jupyterhub to your local computer.
-
-We will also explore options to scale processing for larger datasets and more complex workflows using Dask for distributed computing and see some examples from the Pangeo project.
-
-This is a bit of a catch-all week, and we will focus on the material that is most relevant to student needs and interests.
+We made it to Week 10! No formal lab assignment this week, so please use the time to work on your final projects. During class, we will discuss conda/mamba and the simple steps needed to migrate from the course Jupyterhub to your local computer.
 
 ## Environment setup
 
@@ -22,31 +16,44 @@ This is a bit of a catch-all week, and we will focus on the material that is mos
 * conda-forge channel
 * Python site-packages
 
-### Migrating from course Jupyterhub
-* [Notes and instructions](../../resources/jupyterhub_migration.md)
+## Migrating from course Jupyterhub
 
-## Pangeo (http://pangeo.io/)
-> "A community platform for Big Data geoscience"
+Sadly, our time together is coming to an end, which means the Jupyterhub will no longer be available. No worries! We can recreate an identical environment, so all of the notebooks you created should run as if they were on the Jupyterhub! You can also set up custom python environment(s) for your local system.
 
-https://gallery.pangeo.io/
+### Details
 
-Take a look at the rendered pangeo notebooks on Github (you can also clone the repo to our jupyterhub/locally if desired, or access through binder or their pangeo AWS hub).  I recommend you work through the xarray and dask notebooks in the top-level directory and the amazon-web-services/landsat8.ipynb notebook.
+We will be shutting down the course Jupyterhub within 30-60 days of the end of the quarter.
 
-One thing that I forgot to mention - if you are using the pangeo hub, when you are done running notebooks, please go to **File->Shut Down**.  This will free up the node allocated to you, and stop the clock on the cloud charges.  If you forget, it’s OK, your server should automatically time out and shut down, but best to be a good citizen here and avoid unnecessary resource consumption.
+You will no longer be able to access your server, and all of the data you stored on the hub will be permanently deleted.
 
-### Glaciology examples
-* https://gallery.pangeo.io/repos/ldeo-glaciology/pangeo-glaciology-examples/index.html
+I recommend that you log in to the hub and review everything stored in your home directory.  A lot of these are temporary files that can be deleted and fetched again from original sources in the future if necessary.  But perhaps you want to preserve copies of these files anyway.
 
-### Landsat-8 time series
-* https://gallery.pangeo.io/repos/pangeo-data/landsat-8-tutorial-gallery/index.html
-    * Launch on AWS hub
-    * In-class demo of using Dask KubeCluster for scaleable processing
+You can use the following strategies to back up your course materials to the cloud and/or transfer to your local machine.
 
-## Other Discussion topics
+### Push git repos to github
 
-### Collaboration with git/Github
-* forking, branches, pull requests, merging
+Fortunately, you've been religiously pushing your lab/project notebooks all quarter (right?).  So those materials are already backed up as long as you maintain you Github account (the GDA organization will persist indefinitely).  
 
+But maybe there are a few scratch notebooks or intermediate data files that you want to preserve.  You can add these to existing repos, or create a new repo and push, but remember that large data files (>10 MB) don't belong in Github repos!
 
-### Data and code archiving
-* Zenodo and other options for publishing repos
+### Archive and download your entire home directory
+
+The easiest (smartest?) approach may be to compress and archive _everything_ in your home directory, including all of the temporary files. Then download this archive and store locally (or move to Google Drive or other cloud storage platform).
+
+1. On the hub, open a terminal and run the following command to check your total disk usage:  
+`cd ~ ; du -sh * ; du -sh .`
+1. If the final line of the output from the above command is >20 GB, I recommend you delete some large files that are no longer needed, especially zip, tif, grib or nc files that can be fetched from the original source the next time you run the notebook.
+   * Note that each user has 40 GB of storage space in our 2021 hub configuration.  
+1. Run the following command to create a [`tar.gz` archive](https://en.wikipedia.org/wiki/Tar_(computing)) of your home directory:  
+`cd ~ ; tar --exclude='.cache' -czvf gda_w2021_backup.tar.gz .` 
+   * This may take a while depending on volume and number of files
+1. When finished, navigate to the top-level home directory in the Jupyterlab file browser, right-click on the `gda_w2021_backup.tar.gz` file and download to your local computer.
+1. To extract (optional):  
+`tar -xzvf gda_w2021_backup.tar.gz`
+
+### Reproducing the course environment
+
+To be able to run the same code on your local machine, you will need to replicate the environment that we used on the Jupyterhub. Fortunately, this is easy to do!
+
+1. To reproduce locally, you just need to install conda, create the uwgda2025 environment, activate and launch `jupyter lab`: [Conda Notes](./conda.md)
+1. :tada:

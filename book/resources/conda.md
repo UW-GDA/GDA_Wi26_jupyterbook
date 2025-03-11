@@ -128,14 +128,14 @@ conda install mamba
 
 ## Create the GDA environment
 
-The environment used for the GDA course is in [uwgda-image-2023 repo](https://github.com/UW-GDA/uwgda-image-2023) in the UW-GDA Github organization:  
-https://github.com/UW-GDA/uwgda-image-2023/blob/main/environment.yml
+The environment used for the GDA course is in [uwgda-image-living repo](https://github.com/UW-GDA/uwgda-image-living) in the UW-GDA Github organization:  
+https://github.com/UW-GDA/uwgda-image-living/blob/main/environment.yml
 
 This configuration file contains all of the packages/versions we used on the Jupyterhub this quarter.
 
 1. Download (or copy the content of) this text file to your computer. On Github, you can right-click on the "RAW" button in your browser, and "save link as" to save locally.
     * View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).
-    * The first line `uwgda2023` defines the conda environment name.
+    * The first line `uwgda2025` defines the conda environment name.
     * Note that we may have "pinned" version numbers for some packages (e.g., `- python=3.9`).
         * This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions are released during the quarter, potentially changing/breaking some functionality. 
         * For your personal setup, you can remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the existing GDA notebooks will run out of the box).
@@ -143,17 +143,17 @@ This configuration file contains all of the packages/versions we used on the Jup
 ```
 conda activate base
 ```
-3. Create the `uwgda2023` conda environment on your local machine. Open a terminal on your machine, and run the following, substituting the appropriate path to your `environment.yml` file: 
+3. Create the `uwgda2025` conda environment on your local machine. Open a terminal on your machine, and run the following, substituting the appropriate path to your `environment.yml` file: 
 ```
 mamba env create -f environment.yml
 ```
    * This may take a few minutes to solve for environment, download and unzip all of the packages.
    * If this fails, please post the error message to the `#it_help` Slack channel 
-4. Activate the `uwgda2023` environment: 
+4. Activate the `uwgda2025` environment: 
 ```
-conda activate uwgda2023
+conda activate uwgda2025
 ```
-   * You should see a slightly different terminal prompt display with `(uwgda2023)`
+   * You should see a slightly different terminal prompt display with `(uwgda2025)`
    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!
       * Try it! run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
 5. Verify Jupyterlab extensions
@@ -162,11 +162,11 @@ jupyter labextension list
 ```
    * Should see "enabled OK" for at least 6 extensions
 
-Note that once this setup is complete, you will need to `conda activate uwgda2023` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2023` to your `~/.bashrc` or `~/.bash_profile` files to make this permanent.
+Note that once this setup is complete, you will need to `conda activate uwgda2025` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2025` to your `~/.bashrc` or `~/.bash_profile` files to make this permanent.
 
 ## Starting Jupyter lab
 
-Once you've successfully created and activated the `uwgda2023` environment, open a terminal and `cd` to the local directory where you store your notebooks/code (`~` or lab/project repos that you previously cloned to a local directory, or location where you plan create new notebooks).  This could be something like `~/Documents/gda_course_2023/`.
+Once you've successfully created and activated the `uwgda2025` environment, open a terminal and `cd` to the local directory where you store your notebooks/code (`~` or lab/project repos that you previously cloned to a local directory, or location where you plan create new notebooks).  This could be something like `~/Documents/gda_course_2023/`.
 
 Then from the terminal, start Jupyter lab with the command
 ```
