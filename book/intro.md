@@ -36,16 +36,16 @@ This course explores geospatial data processing, analysis, interpretation, and v
 ## Modules
 The course is organized into 10 week-long modules. Each module contains background reading assignments and Jupyter notebooks with introduction, demo, and lab exercises. The material builds on content and datasets from previous weeks.
 
-1. [Shell and git/Github](modules/01_Shell_Github/README.md)
-2. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter/README.md)
-3. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib/README.md)
-4. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj/README.md)
-5. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8/README.md)
-6. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz/README.md)
-7. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample/README.md)
-8. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL/README.md)
-9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5/README.md)
-10. [Conda, dask, rioxarray](modules/10_Conda_Dask_rioxarray_etc/README.md)
+1. [Introduction - Github and Python](modules/01_Github_Python/01_prep.md)
+2. [Core python modules - Numpy, Pandas, and Matplotlib](modules/02_NumPy_Pandas_Matplotlib/02_prep.md)
+3. [Vector 1 - Vector IO, CRS, projections & distortion](modules/03_Vector1_Geopandas_CRS_Proj/03_prep.md)
+4. [Raster 1 - Raster IO, basic properties, visualization, sampling, band math](modules/04_Raster1/04_prep.md)
+5. [Vector 2 - Geometric operations, spatial joins, and visualization](modules/05_Vector2/05_prep.md)
+6. [Raster 2 - Reprojection, clipping, spatial aggregation, zonal stats](modules/06_Raster2/06_prep.md)
+7. [NDarrays - Raster time series analysis, temporal aggregation, regression in time, PCA/EOF analysis](modules/07_NDarray/07_prep.md)
+8. [Geostatistics - spatiotemporal analysis, spatial autocorrelation, interpolation](modules/08_Geostatistics/08_prep.md)
+9. [Advanced workflows - Geospatial software design, APIs, STAC, dask, shell scripting, and more!](modules/09_Advanced_workflows/09_prep.md)
+10. [Managing environments - Conda and migrating off the course Jupyterhub](modules/10_Managing_environments/10_prep.md)
 
 ## Try it!
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2023/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FUW-GDA%252Fjupyterbook%26urlpath%3Dlab%252Ftree%252Fjupyterbook%252Fbook%252Fmodules%26branch%3Dmain)
@@ -54,15 +54,15 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 *Note: this session is ephemeral and the hardware resources may be limited (~2-8 GB of RAM, limited disk space). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
 
 ### Reproducing locally
-1. Download all course materials: `git clone https://github.com/UW-GDA/jupyterbook`
+1. Download all course materials: `git clone https://github.com/UW-GDA/GDA_Wi25_jupyterbook.git`
 2. See the [Week 10 materials](modules/10_Conda_Dask_rioxarray_etc/README.md) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
-   * [uwgda2023](https://github.com/UW-GDA/uwgda-image-2023/blob/main/environment.yml) (see the conda lock file for pinned version numbers)
+   * [uwgda environment](https://github.com/UW-GDA/uwgda-image-living) (see the conda lock file for pinned version numbers)
 3. Notebooks should have instructions/code to download all necessary data
 
 ## Course details
 
 ### Syllabus (UW netid required)  
-* https://docs.google.com/document/d/1qB1XiV088vjq-xQ_h05FMRW027MOmiB-nrohpB_rJ50/edit?usp=sharing  
+* https://docs.google.com/document/d/1cxM6t62Eos2xQtpBGYV4WmGcQbywe1L73s1JedDkQtM/edit?usp=sharing 
 
 ### [Student Preparation](resources/students/student_preparation.md)
 Follow the above link for answers to FAQ:  
@@ -98,7 +98,7 @@ See [weekly workflow document](resources/students/student_weekly_workflow.md) in
 * If you find this content useful, please consider contributing upstream corrections, modifications, and/or suggestions.
 
 ### Solutions
-* The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [solutions repo](https://github.com/UW-GDA/gda_w2021_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
+* The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [2025 solutions repo](https://github.com/UW-GDA/gda_course_2025_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
 * I wish that I had a better approach for distribution, as I know that these solutions to be a useful resource for those who can't dedicate weeks to learn the material. My priority right now is to preserve the learning experience for enrolled students, and to be able to reuse similar material in the coming years (developing these notebooks requires a considerable amount of time). I am open to suggestions on strategies that will enable students to "unlock" the solutions as they incrementally make progress.
 
 ## Contributions
