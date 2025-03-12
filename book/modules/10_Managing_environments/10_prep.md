@@ -46,9 +46,9 @@ The easiest (smartest?) approach may be to compress and archive _everything_ in 
 1. Run the following command to create a [`tar.gz` archive](https://en.wikipedia.org/wiki/Tar_(computing)) of your home directory:  
 `cd ~ ; tar --exclude='.cache' -czvf gda_w2025_backup.tar.gz .` 
    * This may take a while depending on volume and number of files
-1. When finished, navigate to the top-level home directory in the Jupyterlab file browser, right-click on the `gda_w2021_backup.tar.gz` file and download to your local computer.
+1. When finished, navigate to the top-level home directory in the Jupyterlab file browser, right-click on the `gda_w2025_backup.tar.gz` file and download to your local computer.
 1. To extract (optional):  
-`tar -xzvf gda_w2021_backup.tar.gz`
+`tar -xzvf gda_w2025_backup.tar.gz`
 
 ### Reproducing the course environment
 
