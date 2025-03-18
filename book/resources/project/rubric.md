@@ -1,7 +1,7 @@
 # Final presentation and repository rubrics
 
 ## Presentation rubric (20 pts)
-*Project presentations will be held during the final exam period, Thursday, March 20th, 2025 at 2:30-4:30pm 
+*Project presentations will be held during the final exam period, Thursday, March 20th, 2025 from 2-4:30pm 
 in the eScience seminar room on the 6th floor of the Physics/Astronomy Tower.*
 
 ### Problem / Background / Context [3 points]
