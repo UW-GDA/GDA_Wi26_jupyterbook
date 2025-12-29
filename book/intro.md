@@ -1,6 +1,6 @@
 # Geospatial Data Analysis with Python
 
-Course material from the Winter 2025 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
+Course material from the Winter 2026 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
 
 
 [David Shean](https://www.ce.washington.edu/facultyfinder/david-shean), Eric Gagliano, Quinn Brencher  
@@ -47,11 +47,6 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 9. [Advanced workflows - Geospatial software design, APIs, STAC, dask, shell scripting, and more!](modules/09_Advanced_workflows/09_prep.md)
 10. [Managing environments - Conda and migrating off the course Jupyterhub](modules/10_Managing_environments/10_prep.md)
 
-## Try it!
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2023/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FUW-GDA%252Fjupyterbook%26urlpath%3Dlab%252Ftree%252Fjupyterbook%252Fbook%252Fmodules%26branch%3Dmain)
-Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2024. You can use the file browser on the left side to navigate and launch interactive notebooks in the `book/modules` directory.
-
-*Note: this session is ephemeral and the hardware resources may be limited (~2-8 GB of RAM, limited disk space). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
 
 ### Reproducing locally
 1. Download all course materials: `git clone https://github.com/UW-GDA/GDA_Wi25_jupyterbook.git`
@@ -62,7 +57,7 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 ## Course details
 
 ### Syllabus (UW netid required)  
-* https://docs.google.com/document/d/1cxM6t62Eos2xQtpBGYV4WmGcQbywe1L73s1JedDkQtM/edit?usp=sharing 
+* https://docs.google.com/document/d/1LMJwNlEgIYr3xlGU84sYdcK0F35qXbUzDvH_CjTNv3w/edit?usp=sharing 
 
 ### [Student Preparation](resources/students/student_preparation.md)
 Follow the above link for answers to FAQ:  
@@ -98,7 +93,7 @@ See [weekly workflow document](resources/students/student_weekly_workflow.md) in
 * If you find this content useful, please consider contributing upstream corrections, modifications, and/or suggestions.
 
 ### Solutions
-* The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [2025 solutions repo](https://github.com/UW-GDA/gda_course_2025_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
+* The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [2026 solutions repo](https://github.com/UW-GDA/gda_course_2026_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
 * I wish that I had a better approach for distribution, as I know that these solutions to be a useful resource for those who can't dedicate weeks to learn the material. My priority right now is to preserve the learning experience for enrolled students, and to be able to reuse similar material in the coming years (developing these notebooks requires a considerable amount of time). I am open to suggestions on strategies that will enable students to "unlock" the solutions as they incrementally make progress.
 
 ## Contributions
