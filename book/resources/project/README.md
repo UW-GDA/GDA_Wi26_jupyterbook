@@ -21,12 +21,12 @@ You have multiple options:
 2. Join forces with others in the class who have already done #1.
 3. Something that doesn’t fit into the above categories - pitch it!
 
-### Week 3: Project Idea Pitches (Friday, January 24th, 2025)
+### Week 3: Project Idea Pitches (Friday, January 23th, 2026)
 * Develop a short, 1-minute pitch/summary of project idea(s)
 * Come to class ready to share your idea(s) in small groups and provide feedback to others
 * If you see potential opportunities to work with other students, follow up with them on Slack!
 
-### Week 4: Submit Short Summary (Friday, January 31st, 2025)
+### Week 4: Submit Short Summary (Friday, January 30st, 2026)
 * Submit a short summary of your project. Please include a short "title" summarizing the idea, and then a short description (a few sentences or a paragraph). Submit on Canvas, and share on the Slack #project channel:
    * If you feel like you're ready (you probably are!), please post directly to the #project channel on Slack
       * Others can provide feedback, or potentially join forces!
@@ -35,14 +35,14 @@ You have multiple options:
       * We will attempt to provide feedback and answer lingering questions
       * When ready, please post to #project channel
 
-### Week 5: Review Summaries, Continue Refining, Additional Group Formation (Friday, February 7th, 2025)
+### Week 5: Review Summaries, Continue Refining, Additional Group Formation (Friday, February 6th, 2026)
 * Review the lists of project summaries on the #project channel
    * Offer feedback, ask questions, suggestions for datasets
 * If you see potential opportunities to work with others, or discuss shared needs, follow up with them on Slack.
    * For group projects, start discussing next steps with your team, defining roles, dividing tasks
 * Start preparing more detailed project outline (see below)
 
-### Week 6: Repo and Project Outline (Friday, February 14th, 2025)
+### Week 6: Repo and Project Outline (Friday, February 13th, 2026)
 #### Create a Github repository
 Create a new private repo for your project *within the GDA organization* (can transfer to personal accounts later if desired). Go to https://github.com/UW-GDA and click the big green "New" button.
 
@@ -95,7 +95,7 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
     * We'll discuss some options during labs later in the quarter
 * Commit early, commit often
 
-### Final Exam Week: Presentations (Thursday, March 20th, 2025)
+### Final Exam Week: Presentations (Thursday, March 19th, 2026)
 * Each individual/group will prepare and deliver a ~5-10 minute presentation/demo during a group session at the eScience Institute
    * Format is flexible: can be slides, scrolling through notebook(s), scrolling through markdown files
       * If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
@@ -105,7 +105,7 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
     * Hoping we can do one short question/response live during the transition to the next speaker
     * Meaningful engagement will reflect positively in your participation grade :)
 
-### Final Exam Week: Repo Submission (Thursday, March 20th, 2025)
+### Final Exam Week: Repo Submission (Thursday, March 19th, 2026)
 * Finalize your repository with notebooks, scripts and documentation
     * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
     * Clean up old or unused files (can remove or create an `old` subdirectory and move files there)
