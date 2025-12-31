@@ -47,7 +47,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be 
-reported directly to the GDA course instructor (egagli@uw.edu or a direct message to Eric on Slack). 
+reported directly to the GDA course instructor (gbrench@uw.edu or a direct message to Quinn on Slack). 
 All complaints will be reviewed and investigated promptly and with respect 
 to the privacy and security of the reporter of any incident.
 

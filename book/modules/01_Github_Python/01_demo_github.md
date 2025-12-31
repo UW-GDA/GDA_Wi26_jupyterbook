@@ -24,13 +24,13 @@ David Shean, Eric Gagliano, Quinn Brencher
 - Disucssion of file system navigation (all the way to /)
 - Commands and arguments
 - Tab completion
-- `ls -l` - modificaiton timestamps
+- `ls -l` - modification timestamps
 
 ## Set up git on Jupyterhub
 - Get a [personal access token](https://gda-wi25-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login) from Github
 - Run the following commands, replacing with your own info
-  - `git config --global user.name "Eric Gagliano"`, 
-  - `git config --global user.email "egagli@uw.edu"`
+  - `git config --global user.name "George Brencher"`, 
+  - `git config --global user.email "gbrench@uw.edu"`
 - Run the following command. Next time you enter your credentials (use the Github token as your password!), they will be saved.
   - `git config --global credential.helper store`
 
@@ -48,7 +48,7 @@ David Shean, Eric Gagliano, Quinn Brencher
 
 ## Lab 01 assignment (due NEXT Friday)
 1. Create `labs` folder
-1. Distribute week 01 lab assignment link through slack channel 
+1. Follow week 01 lab assignment link distributed through slack channel 
 1. Clone assignment locally into the labs folder - be careful of where you clone!!
 1. Add a folder `ramblings`
 1. Add a file in that folder called `my_thoughts_on_git.txt` 
