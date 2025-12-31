@@ -7,7 +7,7 @@ David Shean, Eric Gagliano, Quinn Brencher
 Please quickly read through this entire document once, then go back and start tackling the various tasks.
 
 ## Overview
-We are going to “flip the classroom” for the first two weeks. Before class, you will be responsible for reviewing material from external resources--this is your week 1 homework! During our Wednesday and Friday meetings, I will briefly review some of this material and do an interactive demo, we will discuss questions and clarify concepts as a class, and then collaboratively work on our lab assignments to help solidify the concepts. It makes for a busier than average first two weeks, but I think this is the best use of our limited time together. That way, we can start working with geospatial data in earnest starting week 3!
+We are going to “flip the classroom” for the first two weeks. Before class, you will be responsible for reviewing material from external resources--this is your week 1 homework! During our Wednesday and Friday meetings, I will briefly review some of this material and do an interactive demo. Then we will discuss questions and clarify concepts as a class, and then collaboratively work on our lab assignments to help solidify the concepts. It makes for a busier than average first two weeks, but I think this is the best use of our limited time together. That way, we can start working with geospatial data in earnest starting week 2!
 
 ## Logistics - *Complete before first Wednesday lecture* (~30 min)
 * Review the [syllabus](https://docs.google.com/document/d/1LMJwNlEgIYr3xlGU84sYdcK0F35qXbUzDvH_CjTNv3w/edit?usp=sharing) and [Code of Conduct](../../resources/code_of_conduct.md)
