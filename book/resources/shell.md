@@ -4,9 +4,7 @@ CEE467/CEWA567
 David Shean
 
 ## Background 
-See [01_Shell_Github_prep](../modules/01_Shell_Github/01_Shell_Github_prep.html#reading-and-tutorials-complete-before-first-friday-lab)
-
-Also, https://www.youtube.com/watch?v=VF9-sEbqDvU
+See: https://www.youtube.com/watch?v=VF9-sEbqDvU
 
 Nice cheat sheet: https://devhints.io/bash
 
