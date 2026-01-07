@@ -49,7 +49,7 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 
 
 ### Reproducing locally
-1. Download all course materials: `git clone https://github.com/UW-GDA/GDA_Wi25_jupyterbook.git`
+1. Download all course materials: `git clone https://github.com/UW-GDA/GDA_Wi26_jupyterbook.git`
 2. See the [Week 10 materials](modules/10_Conda_Dask_rioxarray_etc/README.md) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
    * [uwgda environment](https://github.com/UW-GDA/uwgda-image-living) (see the conda lock file for pinned version numbers)
 3. Notebooks should have instructions/code to download all necessary data
@@ -57,7 +57,7 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 ## Course details
 
 ### Syllabus (UW netid required)  
-* https://docs.google.com/document/d/1LMJwNlEgIYr3xlGU84sYdcK0F35qXbUzDvH_CjTNv3w/edit?usp=sharing 
+* [Syllabus](https://docs.google.com/document/d/1LMJwNlEgIYr3xlGU84sYdcK0F35qXbUzDvH_CjTNv3w/edit?usp=sharing) 
 
 ### [Student Preparation](resources/students/student_preparation.md)
 Follow the above link for answers to FAQ:  
