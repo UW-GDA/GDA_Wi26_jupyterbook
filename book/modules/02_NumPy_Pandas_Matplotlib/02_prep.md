@@ -44,7 +44,7 @@ As with the previous homework assignments, don’t wait until Friday morning to 
 
 ## Assignment - *Due before class this Friday*
 * Complete the above reading assignments
-* Fill out this [feedback form](https://forms.gle/HFMfFo5o8x2VBdgT9) about the reading assignment
+* Fill out this [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSe8UBUcEW5gEqdlzK2Trc1nqW53FVZClSfBXjNZCozuQgQoDA/viewform?usp=sharing&ouid=109959221683421850946) about the reading assignment
 * Submit last week's lab assignment
 
 ## Outlook
