@@ -16,7 +16,7 @@ David Shean, Eric Gagliano, Quinn Brencher
     - start a shell
     - start a notebook
     - storage and persistence
-    - our jupyterhub will be shut down on June 13th, 2025
+    - our jupyterhub will be shut down on June 12th, 2026
 - Where is this running??
 
 ## Shell overview
@@ -27,7 +27,7 @@ David Shean, Eric Gagliano, Quinn Brencher
 - `ls -l` - modification timestamps
 
 ## Set up git on Jupyterhub
-- Get a [personal access token](https://gda-wi25-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login) from Github
+- Get a [personal access token](https://gda-wi26-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login) from Github
 - Run the following commands, replacing with your own info
   - `git config --global user.name "George Brencher"`, 
   - `git config --global user.email "gbrench@uw.edu"`
