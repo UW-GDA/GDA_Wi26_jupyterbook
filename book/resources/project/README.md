@@ -96,7 +96,7 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
 * Commit early, commit often
 
 ### Final Exam Week: Presentations (Wednesday, March 18th, 2:00-4:30, 2026)
-* Each individual/group will prepare and deliver a ~5-10 minute presentation/demo during a group session at the eScience Institute
+* Each individual/group will prepare and deliver a ~7-15 minute presentation/demo during a group session at the eScience Institute
    * Format is flexible: can be slides, scrolling through notebook(s), scrolling through markdown files
       * If using slides, please include a copy of your presentation in your final project repo (ideally a pdf, which will render on Github)
    * Check out the rubric tab!
@@ -105,7 +105,7 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
     * Hoping we can do one short question/response live during the transition to the next speaker
     * Meaningful engagement will reflect positively in your participation grade :)
 
-### Final Exam Week: Repo Submission (Thursday, March 19th, 2026)
+### Final Exam Week: Repo Submission (Wednesday, March 18th, 2026)
 * Finalize your repository with notebooks, scripts and documentation
     * Can use README, notebooks, or separate markdown files to summarize methods, results, conclusions, lessons learned and future work
     * Clean up old or unused files (can remove or create an `old` subdirectory and move files there)
