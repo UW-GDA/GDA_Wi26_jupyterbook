@@ -32,7 +32,7 @@ in the eScience seminar room on the 6th floor of the Physics/Astronomy Tower.*
 * Did the group seem knowledgeable on their topic?
 
 ## Project repo rubric (40 pts)
-*Repositories are due Thursday, March 20th, 2025 at 11:59pm.* 
+*Repositories are due Wednesday, March 18th, 2026 at 2:00pm.* 
 
 ### Background / Problem Statement [5 points]	
 * Is there enough information in the README/notebooks to understand the problem, background, and what the team is attempting to do in the notebooks?
